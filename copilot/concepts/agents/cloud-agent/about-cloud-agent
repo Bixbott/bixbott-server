@@ -1,0 +1,156 @@
+# À propos de GitHub Copilot agent cloud
+
+Copilot peut rechercher un référentiel, créer un plan d’implémentation et apporter des modifications de code sur une branche. Vous pouvez vérifier le diff, itérer et créer une pull request lorsque vous êtes prêt.
+
+## Vue d’ensemble de Agent cloud Copilot
+
+Avec Agent cloud Copilot, GitHub Copilot peut fonctionner indépendamment en arrière-plan pour effectuer des tâches, tout comme un développeur humain.
+
+Agent cloud Copilot peut:
+
+* Rechercher un référentiel
+* Créer des plans d’implémentation
+* Correction de bugs
+* Mettre en œuvre de nouvelles fonctionnalités de manière progressive
+* Améliorer la couverture des tests
+* Mettre à jour la documentation
+* Gérer la dette technique
+* Résoudre les conflits de fusion
+
+Lorsque vous délèguez des tâches à Agent cloud Copilot, vous pouvez :
+
+* Utilisez le panneau agents ou d'autres points d'entrée d'agents sur GitHub.com pour que Copilot puisse effectuer des recherches, planifier et apporter des modifications de code sur une branche, puis itérer avant de créer une pull request. Vous pouvez également spécifier dans votre invite que vous souhaitez créer immédiatement une pull request. Consultez « [Recherchez, planifiez et itérez les modifications de code avec Agent cloud Copilot](/fr/copilot/how-tos/use-copilot-agents/cloud-agent/research-plan-iterate) ».
+
+* Demandez à Copilot de créer une nouvelle pull request depuis d'autres points d'entrée, y compris GitHub Issues et Visual Studio Code. Consultez « [Démarrage des sessions GitHub Copilot](/fr/copilot/how-tos/use-copilot-agents/cloud-agent/start-copilot-sessions) ».
+
+* Mentionnez `@copilot` dans un commentaire sur une pull request existante pour demander des modifications. Consultez « [Utilisation de l’agent cloud Copilot sur GitHub](/fr/copilot/how-tos/use-copilot-agents/cloud-agent/make-changes-to-an-existing-pr) ».
+
+* Affecter des alertes de sécurité à Copilot depuis des campagnes de sécurité. Voir [Résolution des alertes dans une campagne de sécurité](/fr/code-security/code-scanning/managing-code-scanning-alerts/fixing-alerts-in-security-campaign#assigning-alerts-to-copilot-cloud-agent).
+
+Agent cloud Copilot évalue la tâche qu’elle a été affectée en fonction de l’invite que vous lui donnez.
+
+Tout en travaillant sur une tâche de codage, Agent cloud Copilot a accès à son propre environnement de développement éphémère, alimenté par GitHub Actions, où il peut explorer votre code, apporter des modifications, exécuter des tests automatisés et desinters, etc.
+
+> \[!NOTE] La recherche approfondie, la planification et l’itération sur les modifications de code avant de créer une pull request ne sont disponibles qu’avec Agent cloud Copilot sur GitHub.com.
+> Agent de cloud intégrations (telles que Azure Boards, JIRA, Linear, Slack ou Teams) prennent uniquement en charge la création directe d'un pull request.
+
+### Avantages par rapport aux flux de travail traditionnels basés sur l’IA
+
+En cas d’utilisation efficace, Agent cloud Copilot offre des avantages de productivité par rapport aux assistants IA traditionnels dans les IDE :
+
+* Avec les **assistants IA dans les IDE**, le codage s’effectue **localement**. Les développeurs individuels collaborent avec l’assistant IA dans le cadre de sessions **synchrones**. Les décisions prises au cours de la session ne sont **pas enregistrées** et sont perdues à jamais si elles ne sont pas confirmées. Bien que l’assistant aide à écrire du code, le développeur a toujours beaucoup d'**étapes manuelles** à faire : créer la branche, écrire des messages de commit, envoyer les modifications, ouvrir le PR, écrire la description du PR, obtenir une révision, itérer dans l’IDE et répéter. Ces étapes demandent du temps et des efforts qui peuvent être difficiles à justifier pour des problèmes simples ou courants.
+
+* Avec **Agent cloud Copilot**, tout le codage et l’itération se **produisent sur GitHub**. Vous pouvez demander Copilot de **rechercher** un référentiel, **créer un plan** et **effectuer des modifications de code** sur une branche, tout cela avant d’ouvrir une pull request. Vous pouvez créer plusieurs agents personnalisés qui se spécialisent dans différents types de tâches.
+  Copilot
+  **automatise** la création de branches, l’écriture de messages de validation et le push. Les développeurs permettent aux agents **de travailler en arrière-plan** , puis choisissent de **créer une pull request** lorsqu'ils sont prêts. Travailler sur GitHub apporte de la **transparence**, chaque étape se déroulant dans un commit et étant consultable dans les journaux, et ouvre des opportunités de **collaboration** pour toute l’équipe.
+
+## Agent cloud Copilot par rapport au mode agent
+
+Agent cloud Copilot est distinct de la fonctionnalité « mode agent » disponible dans votre IDE.               Agent cloud Copilot fonctionne de manière autonome dans un environnement propulsé par GitHub Actions pour accomplir les tâches de développement attribuées via des issues GitHub ou des invitesGitHub Copilot Chat. Il peut rechercher un dépôt, créer un plan, apporter des modifications de code sur une branche et éventuellement ouvrir une pull request. En revanche, le mode agent dans votre IDE effectue des modifications autonomes directement dans votre environnement de développement local. Pour plus d’informations sur le mode agent, consultez [Poser des questions à GitHub Copilot dans votre IDE](/fr/copilot/using-github-copilot/copilot-chat/asking-github-copilot-questions-in-your-ide).
+
+## Rationalisation du développement de logiciels avec Agent cloud Copilot
+
+L’attribution de tâches à Agent cloud Copilot peut améliorer votre flux de travail de développement logiciel.
+
+Par exemple, vous pouvez attribuer Agent cloud Copilot aux problèmes simples de votre backlog en sélectionnant «Copilot » comme personne assignée. Cela vous permet de passer moins de temps sur ces problèmes et plus de temps sur un travail plus complexe ou intéressant, ou de travailler qui nécessite un degré élevé de pensée créative.               Agent cloud Copilot peut travailler sur des issues « agréables à avoir » qui améliorent la qualité de votre base de code ou de votre produit, mais qui restent souvent en attente pendant que vous vous concentrez sur un travail plus urgent.
+
+L’utilisation Agent cloud Copilot d’une ressource de codage supplémentaire vous permet également de démarrer des tâches que vous n’avez peut-être pas démarrées autrement en raison d’un manque de ressources. Par exemple, vous pouvez créer des problèmes pour refactoriser du code ou ajouter davantage de journalisation, puis les affecter immédiatement à Copilot.
+
+Vous pouvez également utiliser Agent cloud Copilot pour rechercher un référentiel et créer un plan avant l’écriture d’un code, ce qui vous permet de comprendre le fonctionnement d’une base de code ou d’accepter une approche avant de valider les modifications. Consultez « [Recherchez, planifiez et itérez les modifications de code avec Agent cloud Copilot](/fr/copilot/how-tos/use-copilot-agents/cloud-agent/research-plan-iterate) ».
+
+Agent cloud Copilot peut démarrer une tâche, que vous prenez ensuite en charge pour continuer à travailler dessus vous-même. En affectant le travail initial à Copilot, vous libérez du temps que vous auriez autrement passé à effectuer des tâches répétitives, telles que la configuration de la structure pour un nouveau projet.
+
+Vous pouvez créer des agents personnalisés spécialisés pour différentes tâches. Par exemple, vous pouvez créer un assistant personnalisé service spécialisé pour le développement frontal qui se concentre sur les composants et le style React, un agent de documentation qui excelle lors de l’écriture et de la mise à jour de la documentation technique, ou un agent de test spécialisé dans la génération de tests unitaires complets. Chaque assistant personnalisé peut être adapté avec des invites et des outils spécifiques appropriés à sa tâche particulière.
+
+## Mesure des résultats des pull requests pour Agent cloud Copilot
+
+Les administrateurs d’entreprise et les propriétaires d’organisation peuvent utiliser les métriques d’utilisation de Copilot pour analyser les résultats des pull requests créées par Agent cloud Copilot.
+
+Les Copilot APIs de métriques d'utilisation incluent les métriques du cycle de vie des pull requests telles que :
+
+* Nombre total de pull requests créées et fusionnées
+* Nombre de pull requests créées par Agent cloud Copilot qui ont été fusionnées
+* Temps médian pour la fusion des pull requests, y compris les pull requests créées par Agent cloud Copilot
+
+Ces métriques peuvent vous aider à suivre l’adoption de Agent cloud Copilot et à surveiller les modifications apportées à la cadence des pull requests et au temps de fusion au fil du temps. Consultez « [Métriques d’utilisation GitHub Copilot](/fr/copilot/concepts/copilot-usage-metrics/copilot-metrics) ».
+
+## Agent cloud Copilot Intégration à des outils tiers
+
+Vous pouvez également appeler Agent cloud Copilot à partir d’outils externes, ce qui vous permet d’affecter des tâches à Copilot, de fournir un contexte et d’ouvrir des demandes de tirage sans quitter votre flux de travail. Consultez [À propos des intégrations Copilot](/fr/copilot/concepts/tools/about-copilot-integrations)
+
+## Mise à disposition Agent cloud Copilot
+
+Avant de pouvoir affecter des tâches à Agent cloud Copilot, il doit être activé.
+Agent cloud Copilot est disponible pour tous les plans payants Copilot .
+
+Si vous êtes abonné GitHub Copilot Business ou GitHub Copilot Enterprise, un administrateur doit activer la stratégie appropriée avant que vous puissiez utiliser l’agent.
+
+Les propriétaires de référentiels peuvent choisir de refuser certains dépôts ou tous les dépôts à partir de Agent cloud Copilot.
+
+Consultez « [Gestion de l’accès à GitHub Copilot agent cloud](/fr/copilot/concepts/agents/cloud-agent/access-management) ».
+
+## Modèles IA pour Agent cloud Copilot
+
+Selon la façon dont vous démarrez votre Agent cloud Copilot tâche, vous pouvez sélectionner le modèle utilisé par Agent cloud Copilot. Vous pouvez constater que différents modèles fonctionnent mieux ou fournissent des réponses plus utiles, en fonction du type de tâches que vous donnez Copilot.
+
+Consultez « [Modification du modèle IA pour GitHub Copilot agent cloud](/fr/copilot/how-tos/use-copilot-agents/cloud-agent/changing-the-ai-model) ».
+
+## Améliorer Agent cloud Copilot la connaissance d’un dépôt par
+
+Agent cloud Copilot Plus vous connaissez le code dans votre référentiel, les outils que vous utilisez et vos normes et pratiques de codage, plus il sera efficace. Il existe deux façons d’améliorer Agent cloud Copilotles connaissances d’un référentiel.
+
+* **Instructions personnalisées**
+
+  Il s’agit d’instructions courtes et en langage naturel que vous écrivez et stockez en tant que fichiers dans un référentiel. Si vous êtes le propriétaire d’une organisation sur GitHub, vous pouvez également définir des instructions personnalisées dans les paramètres. Consultez « [À propos de la personnalisation des réponses GitHub Copilot](/fr/copilot/concepts/prompting/response-customization?tool=webui#about-repository-custom-instructions) ».
+
+* ```
+            **              Copilot mémoire              ** (préversion publique)
+  ```
+
+  Si vous disposez d’un forfait Copilot Pro, Copilot Pro+ ou Copilot Max, vous pouvez activer Copilot mémoire. Cela permet à Copilot de stocker des détails utiles qu’il a déterminés lui-même à propos d’un dépôt.
+  Agent cloud Copilot peut ensuite utiliser ces informations lorsqu’elles fonctionnent dans ce référentiel. Consultez « [À propos de la mémoire GitHub Copilot](/fr/copilot/concepts/agents/copilot-memory) ».
+
+## Agent cloud Copilot coûts d’utilisation
+
+Agent cloud Copilot utilise GitHub Actions minutes et AI credits. Les AI credits consommés dépendent du modèle utilisé et du nombre de jetons traités pendant la session.
+
+Avec vos minutes GitHub Actions et AI credits incluses, vous pouvez utiliser Agent cloud Copilot sans frais supplémentaires. Consultez « [Facturation basée sur l’utilisation pour les organisations et les entreprises](/fr/copilot/concepts/billing/usage-based-billing-for-organizations-and-enterprises) ».
+
+Copilot La révision du code consomme également des GitHub Actions minutes sur les dépôts privés. Consultez « [Facturation des actions GitHub](/fr/billing/concepts/product-billing/github-actions#copilot-code-review-and-github-actions-minutes) ».
+
+## Personnalisation Agent cloud Copilot
+
+Vous pouvez personnaliser Agent cloud Copilot de plusieurs façons :
+
+* **Instructions personnalisées : les instructions personnalisées** vous permettent de donner Copilot un contexte supplémentaire à votre projet et de créer, tester et valider ses modifications. Consultez « [Ajout d’instructions personnalisées de référentiel pour GitHub Copilot](/fr/copilot/how-tos/configure-custom-instructions/add-repository-instructions) ».
+* **Serveurs MCP (Model Context Protocol) : les serveurs MCP** vous permettent d’accéder Copilot à différentes sources de données et outils. Consultez « [Configurer des serveurs MCP pour votre référentiel](/fr/copilot/how-tos/use-copilot-agents/cloud-agent/extend-cloud-agent-with-mcp) ».
+* **Agents personnalisés**: Agents personnalisés vous permet de créer différentes versions spécialisées de Copilot pour des tâches variées. Par exemple, vous pouvez personnaliser Copilot pour être un ingénieur front-end expert en suivant les instructions de votre équipe. Consultez « [À propos des agents personnalisés](/fr/copilot/concepts/agents/cloud-agent/about-custom-agents) ».
+* **Hooks** : les hooks vous permettent d’exécuter des commandes d’interpréteur de commandes personnalisées à des points clés pendant l’exécution de l’agent, ce qui vous permet d’ajouter la validation, la journalisation, l’analyse de sécurité ou l’automatisation des flux de travail. Consultez « [À propos des crochets pour GitHub Copilot](/fr/copilot/concepts/agents/hooks) ».
+* **Compétences** : Les compétences vous permettent d’améliorer la capacité d’effectuer Copilot des tâches spécialisées avec des instructions, des scripts et des ressources. Consultez « [À propos des compétences de l’agent](/fr/copilot/concepts/agents/about-agent-skills) ».
+
+## Limitations de Agent cloud Copilot
+
+Agent cloud Copilot présente certaines limitations dans son workflow de développement logiciel et sa compatibilité avec d’autres fonctionnalités.
+
+### Limitations dans le flux de travail de développement logiciel de Agent cloud Copilot
+
+* **Copilot peut uniquement apporter des modifications dans le référentiel spécifié lorsque vous démarrez une tâche**. Copilot ne peut pas apporter de modifications dans plusieurs référentiels en une seule exécution.
+* **Par défaut, Copilot il est possible d’accéder uniquement au contexte dans le référentiel spécifié lorsque vous démarrez une tâche**. Le Copilot serveur MCP est configuré par défaut pour autoriser Copilot l’accès au contexte (par exemple les problèmes et les pull requests historiques) dans le référentiel où il est utilisé. Toutefois, vous pouvez configurer des accès plus étendus. Consultez « [Configurer des serveurs MCP pour votre référentiel](/fr/copilot/how-tos/use-copilot-agents/cloud-agent/extend-cloud-agent-with-mcp) ».
+* **Copilot peut uniquement fonctionner sur une branche à la fois** et peut ouvrir exactement une pull request pour traiter chaque tâche à laquelle elle est affectée.
+* **Chaque Agent cloud Copilot session a une durée d’exécution maximale de 59 minutes**. Il s’agit d’une limite difficile qui ne peut pas être étendue ou contournée. Si une tâche dépasse cette limite, la session expire et s’arrête. Pour les tâches complexes qui peuvent nécessiter plus de temps, envisagez de diviser le travail en tâches plus petites et plus ciblées. Vous pouvez configurer un délai d’expiration plus court à l’aide du `timeout-minutes` paramètre dans votre `copilot-setup-steps.yml` fichier. Consultez « [Configurer l’environnement de développement](/fr/copilot/how-tos/use-copilot-agents/cloud-agent/customize-the-agent-environment) ».
+
+### Limitations de la compatibilité deAgent cloud Copilot avec d’autres fonctionnalités
+
+* **Copilot n’est pas en mesure de se conformer à certaines règles qui peuvent être configurées pour votre référentiel**. Si vous avez configuré un ensemble de règles ou une règle de protection de branche qui n’est pas compatible avec Agent cloud Copilot, l’accès à l’agent est bloqué. Par exemple, une règle qui n'autorise que certains auteurs de validation spécifiques peut empêcher Agent cloud Copilot de créer ou de mettre à jour des pull requests. Si la règle est configurée à l’aide d’ensembles de règles, vous pouvez ajouter Copilot en tant qu’acteur de contournement pour activer l’accès. Consultez « [Création d'ensembles de règles pour un dépôt](/fr/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/creating-rulesets-for-a-repository#granting-bypass-permissions-for-your-branch-or-tag-ruleset) ».
+* **Agent cloud Copilot ne tient pas compte des exclusions de contenu**. Les exclusions de contenu permettent aux administrateurs de configurer Copilot pour ignorer certains fichiers. Lors de l’utilisation Agent cloud Copilot, Copilot n’ignore pas ces fichiers et peut les voir et les mettre à jour. Consultez « [Exclusion du contenu de GitHub Copilot](/fr/copilot/managing-copilot/configuring-and-auditing-content-exclusion/excluding-content-from-github-copilot) ».
+* **Agent cloud Copilot fonctionne uniquement avec les référentiels hébergés sur GitHub**. Si votre référentiel est stocké à l’aide d’une autre plateforme d’hébergement de code, Copilot ne pourra pas travailler dessus.
+
+## Travaux pratiques
+
+Essayez l’exercice [Développez votre équipe avec les compétences Agent cloud Copilot](https://github.com/skills/expand-your-team-with-copilot/?ref_product=copilot\&ref_type=engagement\&ref_style=text) pour acquérir une expérience pratique avec Agent cloud Copilot.
+
+## Lectures complémentaires
+
+* [Agent cloud GitHub Copilot](/fr/copilot/how-tos/use-copilot-agents/cloud-agent) articles pratiques
+* [À propos des agents personnalisés](/fr/copilot/concepts/agents/cloud-agent/about-custom-agents)
+* [Carte d’application : agents GitHub Copilot](/fr/copilot/responsible-use/copilot-cloud-agent)
