@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Archive: 2026 - GitHub Changelog</title>
+	<atom:link href="https://github.blog/changelog/feed/" rel="self" type="application/rss+xml" />
+	<link>https://github.blog/changelog/</link>
+	<description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description>
+	<lastBuildDate>Wed, 17 Jun 2026 22:37:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url>
+	<title>Archive: 2026 - GitHub Changelog</title>
+	<link>https://github.blog/changelog/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">153214340</site>	<item>
+		<title>Read remote repository content with GitHub CLI</title>
+		<link>https://github.blog/changelog/2026-06-17-read-remote-repository-content-with-github-cli</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Wed, 17 Jun 2026 20:03:57 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-06-17-read-remote-repository-content-with-github-cli</guid>
+
+					<description><![CDATA[<p>Explore repository content from your terminal without cloning by using two new commands: gh repo read-file and gh repo read-dir. What you can do Use gh repo read-file to read&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-06-17-read-remote-repository-content-with-github-cli">Read remote repository content with GitHub CLI</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>Explore repository content from your terminal without cloning by using two new commands: <a href="https://cli.github.com/manual/gh_repo_read-file"><code>gh repo read-file</code></a> and <a href="https://cli.github.com/manual/gh_repo_read-dir"><code>gh repo read-dir</code></a>.</p>
+<h2 id="what-you-can-do" id="what-you-can-do" ><a class="heading-link" href="#what-you-can-do">What you can do<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<ul>
+<li>Use <code>gh repo read-file</code> to read an individual file from a remote repository</li>
+<li>Use <code>gh repo read-dir</code> to browse a directory&rsquo;s contents from a remote repository</li>
+</ul>
+<p>These commands work across public and private repositories you have access to, making it faster to inspect code, documentation, and configuration files from any repository.</p>
+<h2 id="use-cases" id="use-cases" ><a class="heading-link" href="#use-cases">Use cases<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>With <code>gh repo read-file</code> and <code>gh repo read-dir</code>, you can:</p>
+<ul>
+<li>Quickly inspect README files or documentation without leaving your terminal.</li>
+<li>Check configuration files across multiple repositories.</li>
+<li>Build scripts and automation that read repository content.</li>
+<li>Integrate repository exploration into AI agents and workflows.</li>
+</ul>
+<h2 id="availability" id="availability" ><a class="heading-link" href="#availability">Availability<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p><code>gh repo read-file</code> and <code>gh repo read-dir</code> are available to all GitHub users, including those on GitHub Enterprise Server (GHES), after installing or upgrading to <a href="https://github.com/cli/cli/releases/tag/v2.95.0">GitHub CLI v2.95.0</a> or later. You can also teach your agents how to leverage new GitHub CLI features by <a href="https://github.com/cli/cli#agent-skills">installing or updating the <code>gh</code> skill</a>.</p>
+<p>Learn more or give us feedback on the <a href="https://github.com/cli/cli"><code>cli/cli</code> repository</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-06-17-read-remote-repository-content-with-github-cli">Read remote repository content with GitHub CLI</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Release]]></category>
+<category domain="changelog-label"><![CDATA[client apps]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">96850</post-id>	</item>
+		<item>
+		<title>Secret scanning updates &#8211; June 2026</title>
+		<link>https://github.blog/changelog/2026-06-17-secret-scanning-updates-june-2026</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Wed, 17 Jun 2026 19:23:42 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-06-17-secret-scanning-updates-june-2026</guid>
+
+					<description><![CDATA[<p>Since our last pattern update, we&#8217;ve expanded secret scanning&#8217;s detection coverage with new partners, more patterns blocked by push protection by default, additional validity checks, and richer metadata for leaked&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-06-17-secret-scanning-updates-june-2026">Secret scanning updates &#8211; June 2026</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>Since our <a href="https://github.blog/changelog/2026-04-14-secret-scanning-pattern-updates-and-product-improvements/">last pattern update</a>, we&rsquo;ve expanded secret scanning&rsquo;s detection coverage with new partners, more patterns blocked by push protection by default, additional validity checks, and richer metadata for leaked secrets.</p>
+<h2 id="detectors-added" id="detectors-added" ><a class="heading-link" href="#detectors-added">Detectors added<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>Secret scanning now automatically detects the following new secret types in your repositories. This release adds two new partners (Cloudsmith and Meraki), significantly expands GitLab token coverage, and adds detectors for Elastic, Slack, Supabase, DataDog, and VolcEngine.</p>
+<div data-target="content-table-wrap.container" class="content-table-wrap"><content-table-wrap><table>
+<thead>
+<tr>
+<th>Provider</th>
+<th>Secret type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cloudsmith</td>
+<td><code>cloudsmith_api_key</code></td>
+</tr>
+<tr>
+<td>Datadog</td>
+<td><code>datadog_pat</code></td>
+</tr>
+<tr>
+<td>Datadog</td>
+<td><code>datadog_sat</code></td>
+</tr>
+<tr>
+<td>Elastic</td>
+<td><code>elastic_stack_api_key</code></td>
+</tr>
+<tr>
+<td>GitLab</td>
+<td><code>gitlab_ci_build_token</code></td>
+</tr>
+<tr>
+<td>GitLab</td>
+<td><code>gitlab_deploy_token</code></td>
+</tr>
+<tr>
+<td>GitLab</td>
+<td><code>gitlab_feature_flag_client_token</code></td>
+</tr>
+<tr>
+<td>GitLab</td>
+<td><code>gitlab_feed_token_v2</code></td>
+</tr>
+<tr>
+<td>GitLab</td>
+<td><code>gitlab_incoming_email_token</code></td>
+</tr>
+<tr>
+<td>GitLab</td>
+<td><code>gitlab_kubernetes_agent_token</code></td>
+</tr>
+<tr>
+<td>GitLab</td>
+<td><code>gitlab_oauth_app_secret</code></td>
+</tr>
+<tr>
+<td>GitLab</td>
+<td><code>gitlab_pipeline_trigger_token</code></td>
+</tr>
+<tr>
+<td>GitLab</td>
+<td><code>gitlab_runner_auth_token</code></td>
+</tr>
+<tr>
+<td>GitLab</td>
+<td><code>gitlab_runner_registration_token</code></td>
+</tr>
+<tr>
+<td>GitLab</td>
+<td><code>gitlab_scim_oauth_token</code></td>
+</tr>
+<tr>
+<td>Meraki</td>
+<td><code>meraki_api_key</code></td>
+</tr>
+<tr>
+<td>Slack</td>
+<td><code>slack_workflow_trigger_url</code></td>
+</tr>
+<tr>
+<td>Supabase</td>
+<td><code>supabase_oauth_access_token</code></td>
+</tr>
+<tr>
+<td>Supabase</td>
+<td><code>supabase_scoped_personal_access_token</code></td>
+</tr>
+<tr>
+<td>VolcEngine</td>
+<td><code>volcengine_ark_api_key</code></td>
+</tr>
+</tbody>
+</table></content-table-wrap></div>
+<p><code>Partner</code> secrets are automatically reported to the secret issuer when found in public repositories through the <a href="https://docs.github.com/code-security/secret-scanning/secret-scanning-partnership-program/secret-scanning-partner-program">secret scanning partnership program</a>.</p>
+<p><code>User</code> secrets generate secret scanning alerts when found in public or private repositories.</p>
+<h2 id="push-protection-defaults-expanded" id="push-protection-defaults-expanded" ><a class="heading-link" href="#push-protection-defaults-expanded">Push protection defaults expanded<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>The following detectors are now included in push protection by default. Repositories with secret scanning enabled, including free public repositories, will have commits containing these secrets automatically blocked.</p>
+<div data-target="content-table-wrap.container" class="content-table-wrap"><content-table-wrap><table>
+<thead>
+<tr>
+<th>Provider</th>
+<th>Secret type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cloudflare</td>
+<td><code>cloudflare_account_api_token</code></td>
+</tr>
+<tr>
+<td>Cloudflare</td>
+<td><code>cloudflare_global_user_api_key</code></td>
+</tr>
+<tr>
+<td>Cloudflare</td>
+<td><code>cloudflare_user_api_token</code></td>
+</tr>
+<tr>
+<td>Cockroach Labs</td>
+<td><code>ccdb_api_key</code></td>
+</tr>
+<tr>
+<td>Flutterwave</td>
+<td><code>flutterwave_test_api_secret_key</code></td>
+</tr>
+<tr>
+<td>Hack Club</td>
+<td><code>hackclub_ai_api_key</code></td>
+</tr>
+<tr>
+<td>OpenRouter</td>
+<td><code>openrouter_api_key</code></td>
+</tr>
+<tr>
+<td>PostHog</td>
+<td><code>posthog_oauth_refresh_token</code></td>
+</tr>
+<tr>
+<td>Supabase</td>
+<td><code>supabase_personal_access_token</code></td>
+</tr>
+</tbody>
+</table></content-table-wrap></div>
+<p>Patterns that are not yet enabled by default remain configurable in your push protection settings.</p>
+<h2 id="validity-checks-added" id="validity-checks-added" ><a class="heading-link" href="#validity-checks-added">Validity checks added<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>These patterns now support validity checks, so alerts tell you whether a leaked credential is still active and help you prioritize remediation.</p>
+<div data-target="content-table-wrap.container" class="content-table-wrap"><content-table-wrap><table>
+<thead>
+<tr>
+<th>Provider</th>
+<th>Secret type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alibaba</td>
+<td><code>alibaba_cloud_access_key_id</code></td>
+</tr>
+<tr>
+<td>Alibaba</td>
+<td><code>alibaba_cloud_access_key_secret</code></td>
+</tr>
+<tr>
+<td>Azure</td>
+<td><code>azure_ai_services_key</code></td>
+</tr>
+<tr>
+<td>Azure</td>
+<td><code>azure_anomaly_detector_ee_key</code></td>
+</tr>
+<tr>
+<td>Azure</td>
+<td><code>azure_anomaly_detector_key</code></td>
+</tr>
+<tr>
+<td>Azure</td>
+<td><code>azure_cognitive_services_key</code></td>
+</tr>
+<tr>
+<td>Azure</td>
+<td><code>azure_content_moderator_key</code></td>
+</tr>
+<tr>
+<td>Azure</td>
+<td><code>azure_cosmosdb_key_identifiable</code></td>
+</tr>
+<tr>
+<td>Azure</td>
+<td><code>azure_custom_vision_prediction_key</code></td>
+</tr>
+<tr>
+<td>Azure</td>
+<td><code>azure_custom_vision_training_key</code></td>
+</tr>
+<tr>
+<td>Azure</td>
+<td><code>azure_event_hub_key_identifiable</code></td>
+</tr>
+<tr>
+<td>Azure</td>
+<td><code>azure_function_key</code></td>
+</tr>
+<tr>
+<td>Azure</td>
+<td><code>azure_relay_key_identifiable</code></td>
+</tr>
+<tr>
+<td>Azure</td>
+<td><code>azure_service_bus_identifiable</code></td>
+</tr>
+<tr>
+<td>Azure</td>
+<td><code>azure_storage_account_key</code></td>
+</tr>
+<tr>
+<td>Azure</td>
+<td><code>azure_text_translation_key</code></td>
+</tr>
+<tr>
+<td>Coveo</td>
+<td><code>coveo_access_token</code></td>
+</tr>
+<tr>
+<td>Coveo</td>
+<td><code>coveo_api_key</code></td>
+</tr>
+<tr>
+<td>Databricks</td>
+<td><code>databricks_access_token</code></td>
+</tr>
+<tr>
+<td>Salesforce</td>
+<td><code>salesforce_access_token</code></td>
+</tr>
+<tr>
+<td>Shopify</td>
+<td><code>shopify_access_token</code></td>
+</tr>
+<tr>
+<td>Shopify</td>
+<td><code>shopify_custom_app_access_token</code></td>
+</tr>
+<tr>
+<td>Shopify</td>
+<td><code>shopify_merchant_token</code></td>
+</tr>
+<tr>
+<td>Shopify</td>
+<td><code>shopify_private_app_password</code></td>
+</tr>
+</tbody>
+</table></content-table-wrap></div>
+<h2 id="extended-metadata-support" id="extended-metadata-support" ><a class="heading-link" href="#extended-metadata-support">Extended metadata support<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>These patterns now include extended metadata when detected, providing richer context about leaked secrets.</p>
+<div data-target="content-table-wrap.container" class="content-table-wrap"><content-table-wrap><table>
+<thead>
+<tr>
+<th>Provider</th>
+<th>Secret type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Airtable</td>
+<td><code>airtable_api_key</code></td>
+</tr>
+<tr>
+<td>Airtable</td>
+<td><code>airtable_personal_access_token</code></td>
+</tr>
+<tr>
+<td>Grafana</td>
+<td><code>grafana_cloud_api_token</code></td>
+</tr>
+<tr>
+<td>npm</td>
+<td><code>npm_access_token</code></td>
+</tr>
+<tr>
+<td>xAI</td>
+<td><code>xai_api_key</code></td>
+</tr>
+</tbody>
+</table></content-table-wrap></div>
+<h2 id="learn-more" id="learn-more" ><a class="heading-link" href="#learn-more">Learn more<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>Learn more about <a href="https://docs.github.com/code-security/secret-scanning/introduction/about-secret-scanning">secret scanning</a> and see the <a href="https://docs.github.com/code-security/secret-scanning/introduction/supported-secret-scanning-patterns">full list of supported secrets</a> in our documentation. Let us know what you think in the <a href="https://gh.io/community-secret-scanning">community discussion</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-06-17-secret-scanning-updates-june-2026">Secret scanning updates &#8211; June 2026</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Improvement]]></category>
+<category domain="changelog-label"><![CDATA[application security]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">96842</post-id>	</item>
+		<item>
+		<title>Enterprise-managed settings now support bypass permission controls</title>
+		<link>https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Wed, 17 Jun 2026 17:13:47 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls</guid>
+
+					<description><![CDATA[<p>We&#8217;re adding our first governance capability to the enterprise-managed settings configuration. Enterprise administrators can now set disableBypassPermissionsMode to "disable" in the enterprise-managed settings.json to prevent GitHub Copilot CLI and VS&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls">Enterprise-managed settings now support bypass permission controls</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>We&rsquo;re adding our first governance capability to the enterprise-managed settings configuration. Enterprise administrators can now set <code>disableBypassPermissionsMode</code> to <code>"disable"</code> in the enterprise-managed <code>settings.json</code> to prevent GitHub Copilot CLI and VS Code from automatically skipping permission prompts (also known as &ldquo;yolo mode&rdquo; or auto-approve).</p>
+<p>Add <code>disableBypassPermissionsMode</code> to <code>.github-private/.github/copilot/settings.json</code>. GitHub Copilot automatically pulls and applies these settings for users licensed through your enterprise account with Copilot Business or Copilot Enterprise. If you&rsquo;ve already configured a source organization for custom agents, this setting uses that same <code>.github-private</code> repository. You can confirm that your configuration is active on the Agents page under AI controls in your enterprise settings.</p>
+<p>This builds on the <a href="https://github.blog/changelog/2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview/">enterprise-managed plugins for Copilot CLI</a> and <a href="https://github.blog/changelog/2026-06-05-enterprise-managed-plugins-in-vs-code-in-public-preview/">VS Code</a> capabilities launched earlier. VS Code v1.122+ already respects enterprise-managed settings including this policy. The new supported path for AI standards is <a href="https://docs.github.com/enterprise-cloud@latest/rest/copilot/copilot-custom-agents?apiVersion=2026-03-10#get-the-source-org%5B%E2%80%A6%5Dts-in-an-enterprise">copilot/managed-settings.json</a>, with backward compatibility for <code>.github/copilot/settings.json</code>.</p>
+<p>To learn more, see <a href="https://docs.github.com/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/disable-automatic-commands">Disabling automatic command approval in Copilot clients</a>.</p>
+<p>Join the discussion within <a href="https://github.com/orgs/community/discussions/199139">GitHub Community</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls">Enterprise-managed settings now support bypass permission controls</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Improvement]]></category>
+<category domain="changelog-label"><![CDATA[client apps]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<category domain="changelog-label"><![CDATA[enterprise management tools]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">96833</post-id>	</item>
+		<item>
+		<title>Auto mode in Copilot Chat available for all users</title>
+		<link>https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Wed, 17 Jun 2026 16:24:33 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users</guid>
+
+					<description><![CDATA[<p>GitHub Copilot auto model selection is now generally available in Copilot Chat on github.com and the GitHub mobile app for all Copilot plans. With auto, Copilot chooses a model on&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users">Auto mode in Copilot Chat available for all users</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>GitHub Copilot auto model selection is now generally available in Copilot Chat on github.com and the GitHub mobile app for all Copilot plans. With auto, Copilot chooses a model on your behalf based on the complexity of your request and current model availability. Using auto allows you to better optimize for token use while maintaining high quality results.</p>
+<h2 id="how-it-works" id="how-it-works" ><a class="heading-link" href="#how-it-works">How it works<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>Auto model selection is dynamic, routing to models based on real-time availability and the complexity of your request. It provides you with the same access to your favorite models while optimizing for cost and response quality. Auto routes to models like Claude Sonnet 4.6, GPT-5.4 mini, GPT-5.4, and Haiku 4.5 based on your plan and policies. The <a href="https://docs.github.com/copilot/reference/ai-models/supported-models#supported-ai-models-in-auto-model-selection">models auto will route to</a> will change over time.</p>
+<h2 id="benefits-of-auto-mode" id="benefits-of-auto-mode" ><a class="heading-link" href="#benefits-of-auto-mode">Benefits of auto mode<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<ul>
+<li><strong>Transparency:</strong> You can see which model was used by hovering over the model response.</li>
+<li><strong>Task-based routing:</strong> Auto evaluates your task and chooses the optimal model based on complexity and real-time system health.</li>
+<li><strong>Stay in control:</strong> You can switch between auto and any specific model of choice on a per-response basis. </li>
+<li><strong>Respects your policies:</strong> Auto honors all user and administrator model settings.</li>
+</ul>
+<h2 id="token-use" id="token-use" ><a class="heading-link" href="#token-use">Token use<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>Use of auto is billed at a 10% discount for all paid subscribers.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users">Auto mode in Copilot Chat available for all users</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Release]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">96818</post-id>	</item>
+		<item>
+		<title>Limit open pull requests for users without write access</title>
+		<link>https://github.blog/changelog/2026-06-17-limit-open-pull-requests-for-users-without-write-access</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Wed, 17 Jun 2026 16:23:56 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-06-17-limit-open-pull-requests-for-users-without-write-access</guid>
+
+					<description><![CDATA[<p>Maintainers of open source repositories are dealing with an ever-growing volume of pull requests, including repeated low-quality or drive-by contributions that can slow triage and overwhelm review queues. To help&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-06-17-limit-open-pull-requests-for-users-without-write-access">Limit open pull requests for users without write access</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>Maintainers of open source repositories are dealing with an ever-growing volume of pull requests, including repeated low-quality or drive-by contributions that can slow triage and overwhelm review queues. To help manage this, you can now set a maximum number of open pull requests that users without write access may have open in your repository at one time, giving you a more proactive way to manage contribution volume.</p>
+<p>If a user without write access reaches the limit, they&rsquo;ll need to close or merge an existing pull request before opening another one. You can also add trusted contributors to a bypass list, allowing them to exceed the limit without being granted full collaborator access. Draft pull requests do not count towards a user&rsquo;s limit.</p>
+<p><img decoding="async" alt="The repository settings UI for configuring a maximum number of concurrent open pull requests for users without write access" src="https://github.com/user-attachments/assets/d00a3d33-58c6-4807-8871-9ab48fc892f8"></p>
+<p>This update can help reduce noise in busy repositories, lower unnecessary review and CI overhead, and make it easier for maintainers to focus on high-signal contributions from their community.</p>
+<p>Leave a comment in our <a href="https://github.com/orgs/community/discussions/198851">Community discussion</a> with any questions or feedback.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-06-17-limit-open-pull-requests-for-users-without-write-access">Limit open pull requests for users without write access</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Improvement]]></category>
+<category domain="changelog-label"><![CDATA[collaboration tools]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">96817</post-id>	</item>
+		<item>
+		<title>Agent finder for GitHub Copilot now available</title>
+		<link>https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Wed, 17 Jun 2026 16:21:56 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available</guid>
+
+					<description><![CDATA[<p>GitHub agent finder is now available. Instead of hand-wiring which MCP servers, skills, canvases, agents, and tools each agent should use&#8212;and filling your context window in the process&#8212;GitHub Copilot can&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available">Agent finder for GitHub Copilot now available</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>GitHub agent finder is now available. Instead of hand-wiring which MCP servers, skills, canvases, agents, and tools each agent should use&mdash;and filling your context window in the process&mdash;GitHub Copilot can now discover the right capability for a task on its own.</p>
+<p>Describe a task in plain language and agent finder searches an index of available AI resources, then returns ranked matches Copilot can pull in on demand from any catalog you point it at. Agents load what the work calls for instead of carrying every tool just in case, and the best options are ranked for you to help you decide what to install.</p>
+<p><video loop controls autoplay muted width="100%" src="https://github.com/user-attachments/assets/efd0d02f-416d-412b-b25e-1e01806d8c0e"><br>
+</video></p>
+<p>Agent finder implements the open Agentic Resource Discovery (ARD) specification, developed in collaboration with Google, GoDaddy, Hugging Face, and Microsoft. It launches alongside <a href="https://commandline.microsoft.com/agentic-resource-discovery-specification-ard/">Microsoft&rsquo;s announcement of the ARD specification</a>, which features GitHub.</p>
+<p>Agent finder works against a registry, and you decide which one:</p>
+<ul>
+<li><strong>Discover from a registry you choose:</strong> Point agent finder at GitHub&rsquo;s curated public catalog, or at your own private registry of internal resources, and the answers an agent gets are scoped to that source.</li>
+<li><strong>Enforce with managed settings:</strong> The same place you govern Copilot is where you define which resources agents are allowed to discover and use. Agent finder only ever surfaces what your enterprise permits.</li>
+<li><strong>No auto installation:</strong> Agent finder finds the right tool at the right time. It doesn&rsquo;t silently connect anything. You stay in control of what actually gets wired in.</li>
+</ul>
+<p>Agent finder is available on all GitHub Copilot plans. Because it implements the open ARD specification, any registry or AI client can adopt the same discovery model.</p>
+<p>Check out our curated <a href="https://github.com/agentfinder">catalog of AI resources</a> and <a href="https://docs.github.com/en/copilot/concepts/mcp-management#agent-finder">try agent finder</a> to discover the right capabilities for your tasks.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available">Agent finder for GitHub Copilot now available</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Release]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">96816</post-id>	</item>
+		<item>
+		<title>Copilot individual plan sign-ups are reopening</title>
+		<link>https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Wed, 17 Jun 2026 14:10:00 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-06-15-copilot-individual-plan-sign-ups-are-reopening</guid>
+
+					<description><![CDATA[<p>We&#8217;re reopening sign-ups for GitHub Copilot Student, Pro, Pro+, and Max plans gradually over the next couple of weeks for new subscribers. If you&#8217;ve been waiting to get started with&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening">Copilot individual plan sign-ups are reopening</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>We&rsquo;re reopening sign-ups for GitHub Copilot Student, Pro, Pro+, and Max plans gradually over the next couple of weeks for new subscribers. If you&rsquo;ve been waiting to get started with Copilot, select the <a href="https://github.com/features/copilot/plans?cft=copilot_lo.features_copilot&amp;utm_campaign=Enterprise&amp;utm_medium=referral&amp;utm_source=github">plan</a> that fits your needs. If your preferred option isn&rsquo;t available yet, check back soon.</p>
+<p>If you find that you&rsquo;re using more than what&rsquo;s included in your current plan, we&rsquo;ve made some updates to help you get the best experience:</p>
+<ul>
+<li><strong>Upgrade to unlock more included usage:</strong> When approaching your included and additional usage limits, you&rsquo;ll see prompts to upgrade to the next tier. You only pay the price difference between plans. Upon upgrading, you immediately get access to the new plan&rsquo;s total included usage, minus what you&rsquo;ve already used this month.
+</li>
+<li>
+<p><strong>Pay as you go and stay on your current plan:</strong> You don&rsquo;t need to switch plans to keep going. If you&rsquo;ve exhausted your included credits and hit your additional spending limit, you can pay for the additional usage you&rsquo;ve already consumed, giving you continued access without switching plans.</p>
+</li>
+</ul>
+<p>Changes to the upgrades and continued usage experiences are effective immediately.</p>
+<p><a href="https://docs.github.com/copilot/about-github-copilot/subscription-plans-for-github-copilot">Learn more about GitHub Copilot plans</a> or join the <a href="https://github.com/orgs/community/discussions/197089">discussion</a> within GitHub Community.</p>
+<p><img decoding="async" src="https://github.com/user-attachments/assets/25f69164-faf9-4779-86a5-fd6176a9ae2b" alt="social"></p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening">Copilot individual plan sign-ups are reopening</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Release]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">96770</post-id>	</item>
+		<item>
+		<title>GitHub Copilot app generally available</title>
+		<link>https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Wed, 17 Jun 2026 13:00:33 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available</guid>
+
+					<description><![CDATA[<p>The GitHub Copilot app is now generally available for macOS, Windows, and Linux. It&#8217;s the desktop home for agent-driven development, built natively on GitHub. Download the GitHub Copilot app to&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available">GitHub Copilot app generally available</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>The GitHub Copilot app is now generally available for macOS, Windows, and Linux. It&rsquo;s the desktop home for agent-driven development, built natively on GitHub.</p>
+<p><strong><a href="https://github.com/github/app">Download the GitHub Copilot app</a></strong> to start your first session.</p>
+<p>Start a session from an issue, pull request, or prompt. Run parallel sessions across repositories, each on its own branch and worktree. Review the diff, validate in the integrated terminal and browser, and open a pull request that uses your team&rsquo;s existing checks and merge requirements.</p>
+<p>Since the technical preview, we&rsquo;ve also added:<br>
+* <strong>Canvases:</strong> Use bidirectional surfaces where you and the agent operate on the same plan, pull request, terminal, or browser session, so progress is visible and steerable instead of buried in chat.<br>
+* <strong>Cloud automations:</strong> Schedule recurring agent work in the cloud so it doesn&rsquo;t depend on your machine being awake.<br>
+* <strong>Bring your own model and tools:</strong> Pick the model behind each session and connect external tools through MCP servers.</p>
+<p>Want to learn more first? Visit the <a href="https://github.com/features/ai/github-app?utm_source=changelog-github-copilot-app&amp;utm_medium=changelog&amp;utm_campaign=github-copilot-app-ga-2026">product page</a> or <a href="https://docs.github.com/copilot/how-tos/github-copilot-app/getting-started?utm_source=changelog-github-copilot-app&amp;utm_medium=changelog&amp;utm_campaign=github-copilot-app-ga-2026">read the docs</a>.</p>
+<p><em>Note: To access the GitHub Copilot app on a Copilot Business or Enterprise plan, your organization or enterprise admin must have the Copilot CLI enabled in policy settings.</em></p>
+<p>Join the discussion within <a href="https://github.com/orgs/community/discussions/199129">GitHub Community</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available">GitHub Copilot app generally available</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Release]]></category>
+<category domain="changelog-label"><![CDATA[copilot]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">96806</post-id>	</item>
+		<item>
+		<title>GitHub Models is no longer available to new customers</title>
+		<link>https://github.blog/changelog/2026-06-16-github-models-is-no-longer-available-to-new-customers</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Tue, 16 Jun 2026 20:24:41 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-06-16-github-models-is-no-longer-available-to-new-customers</guid>
+
+					<description><![CDATA[<p>We are retiring GitHub Models. As a first step, new customers can no longer use it. If your organization or enterprise have not previously used GitHub Models, you won&#8217;t see&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-06-16-github-models-is-no-longer-available-to-new-customers">GitHub Models is no longer available to new customers</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>We are retiring GitHub Models. As a first step, new customers can no longer use it. If your organization or enterprise have not previously used GitHub Models, you won&rsquo;t see it and can&rsquo;t start new usage.</p>
+<p><strong>If you are an existing GitHub Models customer, nothing changes today.</strong> You can continue using the playground, API, and models as usual. We will share more details, including timelines, as we move toward full retirement.</p>
+<h3 id="whats-changing" id="whats-changing" ><a class="heading-link" href="#whats-changing">What&rsquo;s changing<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h3>
+<p>New organizations and enterprises without existing GitHub Models usage no longer have access to GitHub Models, on both free and paid plans.</p>
+<p>Existing customers with active usage are not impacted by this change and can continue using GitHub Models for now. For new projects that need AI model access, <a href="https://ai.azure.com/">Azure AI Foundry</a> offers a broad model catalog.</p>
+<p>To learn more, <a href="https://docs.github.com/github-models">check out our docs about GitHub Models</a>. You can also join our <a href="https://github.com/orgs/community/discussions/categories/models">community discussions</a> to ask questions and share feedback.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-06-16-github-models-is-no-longer-available-to-new-customers">GitHub Models is no longer available to new customers</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Retired]]></category>
+<category domain="changelog-label"><![CDATA[ecosystem &amp; accessibility]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">96794</post-id>	</item>
+		<item>
+		<title>GitHub Code Quality generally available July 20, 2026</title>
+		<link>https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026</link>
+		
+		<dc:creator><![CDATA[Allison]]></dc:creator>
+		<pubDate>Tue, 16 Jun 2026 16:25:31 +0000</pubDate>
+				<guid isPermaLink="false">https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026</guid>
+
+					<description><![CDATA[<p>More than 10,000 enterprises have used the GitHub Code Quality public preview to detect maintainability and reliability issues, enforce quality gates, and track code coverage. On July 20, 2026, Code&#8230;</p>
+<p>The post <a href="https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026">GitHub Code Quality generally available July 20, 2026</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>More than 10,000 enterprises have used the GitHub Code Quality public preview to detect maintainability and reliability issues, enforce quality gates, and track code coverage. On <strong>July 20, 2026</strong>, Code Quality moves from public preview to general availability as a purchasable product.</p>
+<p>We understand that any change is significant to our customers, especially when it relates to billing, so we are sharing this update early to help you plan and prepare.</p>
+<h2 id="whats-changing-on-july-20-2026" id="whats-changing-on-july-20-2026" ><a class="heading-link" href="#whats-changing-on-july-20-2026">What&rsquo;s changing on July 20, 2026<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<ul>
+<li><strong>GitHub Code Quality will become a paid product.</strong> Pricing will be $10 per active committer per month on enabled repositories, plus usage-based consumption for AI-powered capabilities (e.g., Copilot code review, AI-assisted detection, and Copilot Autofix). Deterministic CodeQL analysis will consume GitHub Actions minutes.</li>
+<li><strong>New capabilities will be available.</strong> Code Quality will support organization-wide deployment, organization-level quality dashboards, code coverage enforcement via rulesets, repository- and organization-level quality scoring, and APIs for both enablement and findings management.</li>
+</ul>
+<h2 id="what-you-pay-for" id="what-you-pay-for" ><a class="heading-link" href="#what-you-pay-for">What you pay for<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>GitHub Code Quality will be priced as a base subscription plus metered usage. There are three components:</p>
+<ul>
+<li><strong>Per-committer license, $10 per active committer per month:</strong> Covers your access to Code Quality on enabled repositories, including findings, scoring, rulesets integration, security and quality overview integration, organization-wide deployment, and quality gates that block pull request merges on maintainability, reliability, or coverage thresholds.</li>
+<li><strong>AI-powered work, usage-based billing:</strong> Applies when AI-powered capabilities run on code-quality&ndash;enabled repositories. Copilot code review is the most familiar of these and consumes usage when it analyzes pull requests. AI-assisted detection and Copilot Autofix generation also consume usage on the same model.</li>
+<li><strong>Deterministic analysis, GitHub Actions minutes:</strong> CodeQL-powered maintainability and reliability scans run on Actions. Fast, predictable, and free of AI usage charges.</li>
+</ul>
+<h2 id="availability" id="availability" ><a class="heading-link" href="#availability">Availability<span class="heading-hash pl-2 text-italic text-bold" aria-hidden="true"></span></a></h2>
+<p>GitHub Code Quality is available on GitHub Enterprise Cloud and GitHub Team plans. Code Quality is not available on GitHub Enterprise Server.</p>
+<p>If you no longer wish to use Code Quality once it becomes a paid product, disable it on your repositories before July 20. You can disable Code Quality across repositories from your organization settings pages starting today.</p>
+<p>Learn more in <a href="https://docs.github.com/code-security/concepts/about-code-quality">our docs about Code Quality</a>.</p>
+</body></html>
+<p>The post <a href="https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026">GitHub Code Quality generally available July 20, 2026</a> appeared first on <a href="https://github.blog">The GitHub Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<category domain="changelog-type"><![CDATA[Release]]></category>
+<category domain="changelog-label"><![CDATA[application security]]></category>
+<category domain="changelog-label"><![CDATA[platform governance]]></category>
+<post-id xmlns="com-wordpress:feed-additions:1">96789</post-id>	</item>
+	</channel>
+</rss>
