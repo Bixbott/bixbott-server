@@ -1,0 +1,95 @@
+# Sách thảo luận hoặc bài viết trên blog
+
+Thảo luận với Copilot peut vous aider à générer des idées, un plan ou rédiger des Discussions or des billets de blog.
+
+Nếu bạn đang travaillez sur du code, bạn nên phát triển nhanh chóng các giải thích chính xác và đầy đủ để tham gia công việc của bạn với các đồng nghiệp hoặc la giao tiếp lớn.
+Thảo luận với Copilot peut vous aider en suggérant des idées, des Plans ou des brouillons complets pour des Discussion ou des billets de blog, ce qui vous permet de documenter et de communiquer clairement, afin de consacrer plus de temps au codage.
+
+>[!TIP] Bạn có thể bao gồm các quyền sở hữu đối với các yêu cầu về trách nhiệm hoặc các vấn đề cụ thể trong số những lời mời của bạn. Thảo luận với Copilot và bối cảnh. Nếu bạn muốn nhận được kết quả tham dự, hãy viết luận về giá của dépô dans phiếu bầu nhanh chóng để hỗ trợ Thảo luận với Copilot à se tập trung vào dự án phù hợp.
+
+## Tạo ý tưởng
+
+Nếu bạn đang làm việc trên một dự án, bạn có thể tham gia một cuộc thảo luận hoặc một blog để chia sẻ ý tưởng của bạn, nhận được những bình luận hoặc giao tiếp với bạn.
+Thảo luận avec Copilot peut vous aider à générer des idées.
+
+### Sujets de réflexion à partir de travaux récents
+
+Nếu bạn muốn có ý tưởng để thảo luận, bạn có thể yêu cầu Người thảo luận với Phi công phụ đề xuất các chuyến bay cơ bản trên công việc gần đây của bạn.
+
+#### Emples d'invites
+
+Tôi đã tham gia ba yêu cầu kéo (PR) lớn (#21, #27 và #44) trong tháng vừa qua. Bạn có thể đề xuất năm chủ đề blog tiềm năng làm nổi bật những thách thức hoặc giải pháp độc đáo từ mỗi PR không?
+
+"Chúng tôi đã cải thiện hiệu suất phần phụ trợ trong PR #16 và giải quyết phản hồi của người dùng trong Vấn đề #10 và #12. Bạn có thể đề xuất những ý tưởng bài viết thú vị nào để tổng hợp các bản cập nhật này dành cho đối tượng nhà phát triển không?"
+
+`Chúng tôi vừa phát hành bản nâng cấp phiên bản chính trong PR #99 cho thư viện của mình. Bạn có thể đề xuất ba góc nhìn khác nhau cho bài viết trên blog, nêu bật những thay đổi chính, những bài học chúng tôi đã rút ra và cách cộng đồng có thể hưởng lợi từ đó không?`
+
+"Chúng tôi đang phát triển một tính năng mới dựa trên trí tuệ nhân tạo trong PR #120. Vui lòng đề xuất một số tiêu đề bài đăng trên blog và mô tả ngắn gọn thu hút sự chú ý của các nhà phát triển, đồng thời giải thích cách tính năng này phù hợp với lộ trình phát triển sản phẩm của chúng tôi."
+
+### Sách phê bình các kỹ thuật phân tích
+
+Nếu bạn đang gặp khó khăn trong một công việc hoặc một hệ thống phức tạp, bạn có thể sử dụng một kỹ thuật phân tích phù hợp để giúp bạn tham gia công việc của bạn với cách bạn có thể trang bị hoặc giao tiếp rộng rãi.
+Thảo luận với Copilot peut vous aider à générer des idées pour des présentations các kỹ thuật được phê duyệt và đề xuất các cơ sở cho công việc gần đây của bạn.
+
+#### Emples d'invites
+
+Tôi vừa hoàn thành việc triển khai một quy trình xác thực phức tạp trong PR #30. Bạn có thể phác thảo một bài đăng trên blog giải thích những thách thức chúng tôi gặp phải, cách tiếp cận chúng tôi đã sử dụng để giải quyết chúng và một ví dụ mã ngắn gọn làm nổi bật các phần quan trọng không?
+
+Hãy lập dàn ý cho bài đăng trên blog thảo luận về việc chuyển sang kiến ​​trúc mô-đun hơn trong PR #55. Tôi muốn giải thích lý do tại sao chúng ta thực hiện chuyển đổi này, tác động của nó đến khả năng mở rộng và bất kỳ sự đánh đổi nào chúng ta gặp phải trong quá trình đó.
+
+Hãy đề xuất một bài đăng trên blog dành cho nhà phát triển, tập trung vào cơ chế bộ nhớ đệm mới mà chúng ta đã xây dựng trong PR #64. Nêu bật các khía cạnh chính của việc triển khai, hiển thị các đoạn mã và giải thích những cải tiến về hiệu suất.
+
+### Meilleures pratiques de partage
+
+Nếu bạn đang làm việc trên một dự án, bạn sẽ có một cuộc thảo luận sôi nổi để chia sẻ các công việc thực tế hoặc các câu chuyện xuất hiện.
+Thảo luận với Copilot peut vous aider à générer des idées pour les billets de Discussion.
+
+#### Ví dụ về lời mời
+
+Tôi vừa hoàn thành việc triển khai một quy trình xác thực phức tạp trong PR #30. Bạn có thể phác thảo một bài đăng trên blog giải thích những thách thức chúng tôi gặp phải, cách tiếp cận chúng tôi đã sử dụng để giải quyết chúng và tóm tắt ngắn gọn mã nguồn nêu bật các thực tiễn tốt nhất không?
+
+## Rédaction de contenu
+
+Một trong những điều bạn cần có là một ý tưởng thảo luận hoặc một bài viết trên blog, bạn có thể yêu cầu người thảo luận Thảo luận với người đồng lái của bạn để giúp bạn tiếp tục.
+Thảo luận với Copilot peut vous bốnnir un plan détaillé, un brouillon brut ou un brouillon poli, en fonction de vos besoins.
+
+### Plan d'un billet de blog
+
+Nếu bạn muốn tìm hiểu về kế hoạch viết blog, bạn có thể yêu cầu người thảo luận với Copilot de đề xuất một kế hoạch chi tiết cho phôi của bạn.
+
+#### Ví dụ về lời mời
+
+Vui lòng đề xuất dàn ý cho bài đăng trên blog dựa trên Yêu cầu kéo số 16 và Vấn đề số 10 và 12. Bao gồm các tính năng mới được giới thiệu, những cải tiến dành cho người dùng và các bước tiếp theo.
+
+### Chỉnh sửa bài viết trên blog
+
+Nếu bạn muốn tìm hiểu về blog của mình, bạn có thể yêu cầu người thảo luận với Copilot de suggérer một brouillon brut pour votre billet.
+
+#### Emples d'invites
+
+Hãy viết một bài đăng ngắn trên blog mô tả cách chúng tôi tích hợp mô-đun ghi nhật ký mới từ PR #40. Nêu bật những lợi ích mà nó mang lại cho người dùng và đề xuất các bước tiếp theo.
+
+Tôi cần một đoạn văn mẫu tóm tắt những tính năng mới thú vị hoặc những thay đổi quan trọng được giới thiệu trong các bản cập nhật gần đây. Vui lòng giải thích rõ ràng những gì đã thay đổi và tại sao nó lại quan trọng đối với người dùng.
+
+Hãy viết một đoạn văn ngắn để tri ân những người đã đóng góp vào các yêu cầu kéo (PR) số 33 và 37, giải thích tầm ảnh hưởng của họ và cảm ơn họ về công việc đã làm.
+
+## Afliner votre brouillon
+
+Une fois que vous avez un brouillon, vous pouvezdemander Thảo luận avec Copilot à vous aider à l'affiner.
+Thảo luận với Copilot peut vous Fournir des Suggest pour améliorer votre écriture, la rendre plus attrayante hoặc clarifier des des complexes.
+
+### Cải thiện phong cách ton et du
+
+Nếu bạn muốn cải thiện phong cách của bạn và phong cách phê bình của bạn, bạn có thể yêu cầu thảo luận với Copilot de suggérer des façons de rendre votre écriture plus attrayante ou có thể truy cập được.
+
+#### Ví dụ về lời mời
+
+Vui lòng viết lại phần kết luận theo phong cách thân mật và gần gũi hơn. Phần kết luận ban đầu là: "Nhóm của chúng tôi đã ra mắt thành công bản cập nhật đột phá." Hãy làm cho nó mang tính cá nhân và chúc mừng hơn.
+
+### Y bao gồm các étapes suivantes
+
+Nếu bạn muốn bao gồm các băng ghi âm trên blog của bạn, bạn có thể yêu cầu Thảo luận với Copilot de suggérer des façons de rendre écriture plus có thể khai thác được.
+
+#### Ví dụ về lời mời
+
+Soạn thảo phần cuối cùng về các cột mốc sắp tới và các vấn đề còn tồn đọng được gắn nhãn 'cải tiến'. Trình bày những gì sẽ diễn ra tiếp theo và đề cập đến các cơ hội tham gia của cộng đồng.
